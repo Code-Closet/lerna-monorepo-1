@@ -1,0 +1,21 @@
+{
+  "name": "is-odd",
+  "version": "0.0.0",
+  "description": "Function to check the number is odd",
+  "author": "Sreekanth <sreekanth.pullat@nielsen.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "dist/is-odd.js",
+  "types": "dist/is-odd.d.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  }
+}
